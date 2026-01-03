@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="loginform">
+        <form>
+            <h1>Log in with</h1>
+            <div class="btn">
+                <button class="main-btn"> <img width="12px" id="google" src="logo's/google-logo.png" alt="google-logo">
+                    google</button>
+                <button class="main-btn"> <img width="10px" id="apple" src="logo's/appleLogo.webp" alt="apple-logo">
+                    apple</button>
+            </div>
+            <p>------------------or-------------------------</p>
+            <div class="box">
+                <div class="email-box">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="password-box">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required>
+                    <i class="fa-solid fa-eye-low-vision"></i>
+                </div>
+            </div>
+            <div class="login-btn">
+                <button>LOG IN</button>
+            </div>
+            <p>Don't have an account? <a href="blank">Signup</a> </p>
+        </form>
+    </div>
+</body>
+
+</html>
