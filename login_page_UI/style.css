@@ -1,28 +1,145 @@
-
-*{
-    margin:0;
+* {
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
-body{
+
+body {
     min-height: 100vh;
-    background: #6c73d9;
     display: flex;
     justify-content: center;
     align-items: center;
+    background: #f0e1fc81;
 }
-.loginform{
+
+.loginform {
+    background: #ffffff;
     width: 360px;
-    background: #fff;
-    border-radius:10px;
-    padding: 28px 26px;
-    box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+    padding: 25px 30px;
+    border-radius: 19px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
-.loginform h1{
+
+.loginform h1 {
     text-align: center;
-    font-size: 20px;
-    font-weight: 600;
     margin-bottom: 20px;
-    color: #1f2937;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.btn {
+    display: flex;
+    gap: 19px;
+    margin-bottom: 15px;
+}
+
+.main-btn {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 14px;
+    border: 1px solid #1f29d7;
+    background: #6b63ff49;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+.main-btn:hover {
+    background: #6b63ff28;
+}
+
+form > p {
+    text-align: center;
+    font-size: 13px;
+    color: #797676d9;
+    margin: 15px 0;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.email-box,
+.password-box {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+label {
+    font-size: 13px;
+    color: #603c80fc;
+}
+
+input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #4d27f594;
+    outline: none;
+}
+
+input:focus {
+    border-color: #6c63ff;
+}
+
+.password-box {
+    position: relative;
+}
+
+.password-box i {
+    position: absolute;
+    right: 10px;
+    top: 35px;
+    cursor: pointer;
+    color: #777;
+}
+
+.login-btn {
+    margin-top: 20px;
+}
+
+.login-btn button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    background: #6c63ff;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.login-btn button:hover {
+    background: #5848e5;
+}
+
+.login-btn button:active {
+    background: #5848e596;
+    transition: 0.9;
+}
+
+form > p:last-child {
+    margin-top: 15px;
+    font-size: 13px;
+}
+
+form a {
+    color: #6c63ff;
+    text-decoration: none;
+}
+
+form a:hover {
+    text-decoration: underline;
+}
+
+form a:active{
+    color: #2a17d274;
 }
