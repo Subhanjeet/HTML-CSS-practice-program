@@ -1,6 +1,48 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    font-family: 'P';
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.main-board{
+background-color: rgb(206, 245, 206);
+height: 86vh;
+width: 82vw;
+margin: auto;
+border-radius: 30px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px;
+}
+.logo {
+  color: rgb(0, 123, 255);
+}
+.nav {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  text-decoration: none;
+}
+.nav a {
+  text-decoration: none;
+  color: rgb(0, 123, 255);
+}
+.nav a:hover{
+      color: rgb(93, 149, 210);
+}
+.nav a:active{
+      color: rgba(0, 123, 255, 0.319);
+}
+
+.hero {
+    display: flex;
+    margin: 50px;
+    justify-content: space-between;
+}
+.left{
+    
+    background-color: red;
+
 }
